@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import PostList from "../PostList";
+import "./styles.css";
 
 export default class Main extends Component {
   state = {
@@ -42,7 +43,7 @@ export default class Main extends Component {
     console.log("this.state", this.state);
 
     return (
-      <div>
+      <div className="main">
         <PostList posts={posts} />
       </div>
     );

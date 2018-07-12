@@ -1,0 +1,6 @@
+.posts-container {
+  display: flex;
+  max-width: 1000;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
